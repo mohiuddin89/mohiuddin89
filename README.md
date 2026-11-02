@@ -1,86 +1,134 @@
 <div align="center">
 
-# MD MOHIUDDIN
+# Hi, I'm MD Mohiuddin 👋
 
-### Cloud DevOps Engineer · Platform Engineering · Site Reliability
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=3200&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=680&amp;lines=Cloud+DevOps+Engineer;AWS+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;Infrastructure+automation+%26+reliable+delivery" alt="Cloud DevOps Engineer — AWS, Kubernetes, Terraform and GitOps" />
 
-AWS infrastructure, Kubernetes operations, and delivery automation.
+**Cloud infrastructure · Platform engineering · Production operations**
 
-**Cherry Hill, NJ** · **Certified Kubernetes Administrator (CKA)**
+<a href="https://www.linkedin.com/in/mdmohiuddin45/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
+<a href="mailto:mohiuddn45@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20talk-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Mohiuddin" /></a>
+<a href="https://github.com/mohiuddin89"><img src="https://img.shields.io/badge/GitHub-mohiuddin89-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub mohiuddin89" /></a>
 
-[LinkedIn](https://www.linkedin.com/in/mdmohiuddin45/) · [Email](mailto:mohiuddn45@gmail.com) · [GitHub](https://github.com/mohiuddin89)
+📍 **Cherry Hill, NJ** &nbsp; • &nbsp; 🎓 **Certified Kubernetes Administrator**
 
 </div>
 
 ---
 
-## About me
+## 👨‍💻 About me
 
-I'm a Cloud DevOps Engineer with experience across AWS infrastructure, Kubernetes, and CI/CD. My work brings together reusable infrastructure, reviewed delivery pipelines, observability, and hands-on production support.
+```yaml
+name: MD Mohiuddin
+role: Cloud DevOps Engineer
+location: Cherry Hill, New Jersey
+focus:
+  - AWS infrastructure and production Kubernetes
+  - Reusable infrastructure as code
+  - GitOps delivery and secure CI/CD
+  - Observability, on-call operations, and runbooks
+outside_work:
+  - Bare-metal Kubernetes homelab on Proxmox
+  - Hands-on learning across networking, storage, and PKI
+```
 
-At Kaplan, I support Amazon EKS and GitOps delivery with Argo CD. Previously, I worked in DevOps roles at JPMorgan Chase & Co. and Tripadvisor.
+I support **Amazon EKS and GitOps delivery at Kaplan**, combining infrastructure automation with hands-on production operations. Previously, I worked in DevOps roles at **JPMorgan Chase & Co.** and **Tripadvisor**.
 
-Outside work, I build a bare-metal Kubernetes homelab to deepen my understanding of cluster lifecycle, networking, storage, and security.
+---
 
-## Professional experience
+## ⚡ Professional highlights
 
-### Kaplan · Cloud DevOps Engineer
-*June 2024 - Present*
+<table>
+<tr>
+<td align="center" width="33%"><h3>55</h3><strong>EKS namespaces</strong><br/><sub>Kaplan · approximate platform scope</sub></td>
+<td align="center" width="33%"><h3>500+</h3><strong>Running pods</strong><br/><sub>Kaplan · approximate platform scope</sub></td>
+<td align="center" width="33%"><h3>256+</h3><strong>Argo CD applications</strong><br/><sub>Kaplan · GitOps delivery scope</sub></td>
+</tr>
+<tr>
+<td align="center"><h3>20%</h3><strong>AWS spend reduction</strong><br/><sub>Kaplan · right-sizing and governance</sub></td>
+<td align="center"><h3>65%</h3><strong>Deployment time reduction</strong><br/><sub>JPMorgan Chase &amp; Co. · CI/CD automation</sub></td>
+<td align="center"><h3>200+</h3><strong>Jenkins jobs migrated</strong><br/><sub>Tripadvisor · pipeline-as-code</sub></td>
+</tr>
+</table>
 
-- Support a production EKS platform spanning roughly **55 namespaces**, **500+ running pods**, and **256+ Argo CD applications**.
-- Develop reusable Terraform modules for EKS, VPC, IAM, RDS, and Secrets Manager, with infrastructure changes delivered through reviewed plans and production approval gates.
-- Build GitLab CI/CD pipelines with automated testing, container builds, and Trivy scanning; deliver services through Argo CD and standardized Helm charts.
-- Carry production on-call and maintain runbooks, with observability across CloudWatch, Prometheus, Grafana, Loki, OpenTelemetry, and Tempo.
-- Reduced AWS spend **20%** through right-sizing, orphaned volume cleanup, and tag-based governance.
+### Where I've worked
 
-### JPMorgan Chase & Co. · DevOps Engineer
-*May 2022 - May 2024*
+| Organization | Role | Dates | Selected work |
+| :--- | :--- | :--- | :--- |
+| **Kaplan** | Cloud DevOps Engineer | Jun 2024 - Present | EKS operations, Terraform modules, Argo CD, Helm, GitLab CI/CD, production on-call |
+| **JPMorgan Chase & Co.** | DevOps Engineer | May 2022 - May 2024 | Jenkins, GitHub Actions, AWS, CloudFormation, Ansible Tower across 50+ Linux servers |
+| **Tripadvisor** | DevOps Engineer | Nov 2019 - Apr 2022 | 100+ AWS servers, Jenkins migration, Python/Bash automation, delivery tooling |
 
-- Built CI/CD pipelines with Jenkins, GitHub Actions, and Docker, reducing deployment time **65%**.
-- Automated configuration management across **50+ Linux servers** using Ansible Tower and role-based playbooks.
-- Created reusable CloudFormation templates and centralized logging with the ELK Stack and CloudWatch.
+At Kaplan, I build reusable Terraform modules and deliver infrastructure changes through reviewed plans and production approval gates. My work also includes container scanning with Trivy, observability with CloudWatch and the Grafana ecosystem, and maintaining runbooks after incidents.
 
-### Tripadvisor · DevOps Engineer
-*November 2019 - April 2022*
+---
 
-- Managed **100+ AWS servers** across development, staging, and production.
-- Migrated **200+ Jenkins jobs** to pipeline-as-code.
-- Automated routine operations with Python and Bash and maintained delivery tooling across Jenkins, Bamboo, Bitbucket, and Nexus.
+## 🛠️ Tech stack
 
-## Technical toolkit
+<div align="center">
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge" alt="AWS" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&amp;logo=terraform&amp;logoColor=white" alt="Terraform" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&amp;logo=argo&amp;logoColor=white" alt="Argo CD" />
+<img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&amp;logo=gitlab&amp;logoColor=white" alt="GitLab CI" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="Linux" />
+
+</div>
 
 | Area | Technologies |
 | :--- | :--- |
-| Cloud | AWS: EKS, EC2, ECS/Fargate, Lambda, VPC, IAM, RDS, S3, Route 53 |
-| Containers | Kubernetes, Docker, Helm |
-| Infrastructure & configuration | Terraform, Pulumi (TypeScript), CloudFormation, Ansible |
-| Delivery | GitLab CI/CD, GitHub Actions, Jenkins, Argo CD |
-| Observability | CloudWatch, Prometheus, Grafana, Loki, OpenTelemetry, Tempo |
-| Security | Trivy, Wiz, Kubernetes RBAC, Secrets Manager, cert-manager |
-| Automation & systems | Python, Bash, Linux |
+| **Cloud** | AWS: EKS, EC2, ECS/Fargate, Lambda, VPC, IAM, RDS, S3, Route 53 |
+| **Containers** | Kubernetes, Docker, Helm |
+| **Infrastructure as code** | Terraform, Pulumi (TypeScript), CloudFormation, Ansible |
+| **CI/CD & GitOps** | GitLab CI/CD, GitHub Actions, Jenkins, Argo CD |
+| **Observability** | CloudWatch, Prometheus, Grafana, Loki, OpenTelemetry, Tempo |
+| **Security** | Trivy, Wiz, Kubernetes RBAC, Secrets Manager, cert-manager |
+| **Automation** | Python, Bash, Linux |
 
-## Personal project
+---
 
-### Homelab v2.5 · Bare-metal Kubernetes platform
-*Personal learning and platform engineering project · 2025 - Present*
+## 🧪 Featured personal project
 
-I'm building a Kubernetes platform on Proxmox, bootstrapped manually with kubeadm to work through the underlying infrastructure from first principles.
+### Homelab v2.5 — Bare-metal Kubernetes platform
 
-- **Networking:** Calico CNI and NetworkPolicy, MetalLB, and ingress-nginx.
-- **Storage & certificates:** Longhorn and cert-manager, backed by an internal two-tier PKI.
-- **Delivery:** Self-hosted GitLab CE, a runner, and a private container registry; CI lints, tests, builds multi-stage images, and blocks publication on Trivy HIGH or CRITICAL findings.
-- **Workflow:** AI-assisted Terraform review, CI configuration, and runbook drafting, with manual review of diffs and plans before accepting changes.
+<img src="https://img.shields.io/badge/Personal_Project-In_Progress-0F766E?style=flat-square" alt="Personal project in progress" /> <img src="https://img.shields.io/badge/Repository-Private-475569?style=flat-square" alt="Private repository" />
 
-**Repository:** Private; available on request.
+**A hands-on platform engineering project, built outside my professional work.**
 
-This is an independent personal project. The professional experience above describes my employer work.
+I'm building a Kubernetes platform on **Proxmox**, using manual **kubeadm** bootstrap to deepen my understanding of cluster lifecycle, networking, storage, and security.
 
-## Certification
+| Layer | Homelab implementation |
+| :--- | :--- |
+| **Compute & orchestration** | Proxmox · Kubernetes · kubeadm |
+| **Networking & ingress** | Calico CNI · NetworkPolicy · MetalLB · ingress-nginx |
+| **Persistent storage** | Longhorn |
+| **Certificates & trust** | cert-manager · internal two-tier PKI |
+| **Build & delivery** | Self-hosted GitLab CE · runner · private container registry |
+| **Pipeline checks** | Lint · test · multi-stage image builds · Trivy HIGH/CRITICAL gates |
+
+I also use AI assistance for Terraform review, CI configuration, and runbook drafting, reviewing diffs and plans before accepting changes.
+
+**Started in 2025 · Private repository available on request.**
+
+---
+
+## 🏅 Certification
+
+<img src="https://img.shields.io/badge/CKA-Certified_Kubernetes_Administrator-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Certified Kubernetes Administrator — self-reported credential" />
 
 **Certified Kubernetes Administrator (CKA)**
 
-## Connect
+---
 
-Interested in discussing cloud infrastructure, Kubernetes operations, or platform engineering?
+<div align="center">
 
-[Connect on LinkedIn](https://www.linkedin.com/in/mdmohiuddin45/) · [Send an email](mailto:mohiuddn45@gmail.com)
+### Let's connect
+
+Cloud infrastructure, Kubernetes operations, and platform engineering.
+
+[LinkedIn](https://www.linkedin.com/in/mdmohiuddin45/) &nbsp; • &nbsp; [Email](mailto:mohiuddn45@gmail.com) &nbsp; • &nbsp; [GitHub](https://github.com/mohiuddin89)
+
+</div>

@@ -1,81 +1,86 @@
-# Mohiuddin
+<div align="center">
 
-**DevOps / Platform Engineer** · Kubernetes (CKA) · Bare-metal to Cloud · GitOps · Observability
+# MD MOHIUDDIN
 
-Building production-shape platforms by hand — every layer manually, then automated only where the reasoning survives review. Currently running a bare-metal Kubernetes platform with a distributed OpenTelemetry reference workload, hardened through a real CVE remediation cycle and verified with recovery drills.
+### Cloud DevOps Engineer · Platform Engineering · Site Reliability
 
-📍 New Jersey, US · Open to remote DevOps / Platform Engineer / SRE roles
+AWS infrastructure, Kubernetes operations, and delivery automation.
 
----
+**Cherry Hill, NJ** · **Certified Kubernetes Administrator (CKA)**
 
-### About
+[LinkedIn](https://www.linkedin.com/in/mdmohiuddin45/) · [Email](mailto:mohiuddn45@gmail.com) · [GitHub](https://github.com/mohiuddin89)
 
-```yaml
-name: Mohiuddin
-role: DevOps / Platform Engineer
-location: New Jersey, US (remote-open)
-certifications:
-  - Certified Kubernetes Administrator (CKA)
-current_focus:
-  - Bare-metal Kubernetes platform (kubeadm, Calico, Longhorn)
-  - GitOps with ArgoCD, CI with GitLab + Kaniko + Trivy
-  - Observability (Prometheus, Loki, Jaeger, OpenTelemetry)
-  - Secret management with External Secrets Operator
-  - CVE hardening and recovery drills as first-class work
-next:
-  - AWS / EKS migration via Terraform (Phase 15)
-  - ESO backend swap to AWS SSM Parameter Store
-```
+</div>
 
 ---
 
-### Certifications
+## About me
 
-**Certified Kubernetes Administrator (CKA)** — Cloud Native Computing Foundation
+I'm a Cloud DevOps Engineer with experience across AWS infrastructure, Kubernetes, and CI/CD. My work brings together reusable infrastructure, reviewed delivery pipelines, observability, and hands-on production support.
 
----
+At Kaplan, I support Amazon EKS and GitOps delivery with Argo CD. Previously, I worked in DevOps roles at JPMorgan Chase & Co. and Tripadvisor.
 
-### How I Work
+Outside work, I build a bare-metal Kubernetes homelab to deepen my understanding of cluster lifecycle, networking, storage, and security.
 
-- **Manual first, then automate.** I install every layer by hand before letting a tool automate it, because I want to know what a tool is doing before I trust it.
-- **Break-it discipline.** Every phase closes with a controlled failure and a documented recovery. A capability is not proven until I have broken it and brought it back.
-- **Evidence over assertion.** "It worked" is not closure. Closure means terminal output, committed runbooks, and honest scoping of what still doesn't work.
-- **Honest limits.** Every case study I write ends with "where the work stops." A claim without a boundary is a claim I can't defend in an interview.
+## Professional experience
 
----
+### Kaplan · Cloud DevOps Engineer
+*June 2024 - Present*
 
-### Tech Stack
+- Support a production EKS platform spanning roughly **55 namespaces**, **500+ running pods**, and **256+ Argo CD applications**.
+- Develop reusable Terraform modules for EKS, VPC, IAM, RDS, and Secrets Manager, with infrastructure changes delivered through reviewed plans and production approval gates.
+- Build GitLab CI/CD pipelines with automated testing, container builds, and Trivy scanning; deliver services through Argo CD and standardized Helm charts.
+- Carry production on-call and maintain runbooks, with observability across CloudWatch, Prometheus, Grafana, Loki, OpenTelemetry, and Tempo.
+- Reduced AWS spend **20%** through right-sizing, orphaned volume cleanup, and tag-based governance.
 
-| Category | Technologies |
-| --- | --- |
-| **Kubernetes** | kubeadm, containerd, Calico, Longhorn, MetalLB, ingress-nginx, cert-manager, metrics-server |
-| **GitOps & CI/CD** | ArgoCD, GitLab CI, GitLab Runner, Kaniko, Trivy |
-| **Secrets** | External Secrets Operator, Kubernetes-native source plane |
-| **Observability** | Prometheus, Grafana, Loki, Promtail, Jaeger, OpenTelemetry Collector |
-| **Infrastructure** | Proxmox, Ubuntu Server, Bash |
-| **Cloud (in progress)** | AWS (EKS, VPC, SSM, IAM, Route 53), Terraform |
-| **Languages** | Bash, YAML, some Python |
+### JPMorgan Chase & Co. · DevOps Engineer
+*May 2022 - May 2024*
 
----
+- Built CI/CD pipelines with Jenkins, GitHub Actions, and Docker, reducing deployment time **65%**.
+- Automated configuration management across **50+ Linux servers** using Ansible Tower and role-based playbooks.
+- Created reusable CloudFormation templates and centralized logging with the ELK Stack and CloudWatch.
 
-### Featured Project
+### Tripadvisor · DevOps Engineer
+*November 2019 - April 2022*
 
-**[bare-metal-kubernetes-platform-astroshop](https://github.com/mohiuddin89/bare-metal-kubernetes-platform-astroshop)** — Production-inspired Kubernetes on bare-metal with a distributed OpenTelemetry reference workload (Astroshop).
+- Managed **100+ AWS servers** across development, staging, and production.
+- Migrated **200+ Jenkins jobs** to pipeline-as-code.
+- Automated routine operations with Python and Bash and maintained delivery tooling across Jenkins, Bamboo, Bitbucket, and Nexus.
 
-- Built from the ground up: hypervisor, cluster install, CNI, storage, LoadBalancer, ingress, CA
-- **CVE hardening cycle:** 18 of 18 HIGH/CRITICAL findings closed with real fixes and dated per-service suppressions
-- **Recovery drill:** etcd snapshot restored into an isolated target with 7-step verification, live datastore untouched
-- **NetworkPolicy debugging case study:** selective silent drops on Calico's post-DNAT policy evaluation — a real debug story with a generalizable lesson
-- **CI pipeline:** 6 stages (lint → build → scan → size-check → health-test → push), Kaniko-based (no privileged runners), Trivy-gated
+## Technical toolkit
 
-Read the case studies, architecture decisions, and honest limits: [github.com/mohiuddin89/bare-metal-kubernetes-platform-astroshop](https://github.com/mohiuddin89/bare-metal-kubernetes-platform-astroshop)
+| Area | Technologies |
+| :--- | :--- |
+| Cloud | AWS: EKS, EC2, ECS/Fargate, Lambda, VPC, IAM, RDS, S3, Route 53 |
+| Containers | Kubernetes, Docker, Helm |
+| Infrastructure & configuration | Terraform, Pulumi (TypeScript), CloudFormation, Ansible |
+| Delivery | GitLab CI/CD, GitHub Actions, Jenkins, Argo CD |
+| Observability | CloudWatch, Prometheus, Grafana, Loki, OpenTelemetry, Tempo |
+| Security | Trivy, Wiz, Kubernetes RBAC, Secrets Manager, cert-manager |
+| Automation & systems | Python, Bash, Linux |
 
----
+## Personal project
 
-### What's Next
+### Homelab v2.5 · Bare-metal Kubernetes platform
+*Personal learning and platform engineering project · 2025 - Present*
 
-Extending the same platform into an AWS/EKS deployment via Terraform — same workload, same GitOps repos, ESO backend swap from Kubernetes-native to AWS SSM Parameter Store. Written as a comparison exercise, with residual-audit and next-day billing verification as first-class evidence practices.
+I'm building a Kubernetes platform on Proxmox, bootstrapped manually with kubeadm to work through the underlying infrastructure from first principles.
 
----
+- **Networking:** Calico CNI and NetworkPolicy, MetalLB, and ingress-nginx.
+- **Storage & certificates:** Longhorn and cert-manager, backed by an internal two-tier PKI.
+- **Delivery:** Self-hosted GitLab CE, a runner, and a private container registry; CI lints, tests, builds multi-stage images, and blocks publication on Trivy HIGH or CRITICAL findings.
+- **Workflow:** AI-assisted Terraform review, CI configuration, and runbook drafting, with manual review of diffs and plans before accepting changes.
 
-*Available for remote DevOps, Platform Engineering, and SRE roles in the US. Reach out via LinkedIn or open an issue on any of my repos.*
+**Repository:** Private; available on request.
+
+This is an independent personal project. The professional experience above describes my employer work.
+
+## Certification
+
+**Certified Kubernetes Administrator (CKA)**
+
+## Connect
+
+Interested in discussing cloud infrastructure, Kubernetes operations, or platform engineering?
+
+[Connect on LinkedIn](https://www.linkedin.com/in/mdmohiuddin45/) · [Send an email](mailto:mohiuddn45@gmail.com)
